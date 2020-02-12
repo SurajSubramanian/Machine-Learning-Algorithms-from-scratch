@@ -18,3 +18,5 @@ Implemented from scratch !
 - Machine Learning Programs based on Andrew NGs Machine Learning Course
 - http://anwarruff.com/tag/linear-regression/
 - A Neural Network in 11 lines of code https://iamtrask.github.io/2015/07/12/basic-python-network/
+
+Thanks for reading :)
