@@ -1,4 +1,7 @@
-# PythonPrograms
-Machine Learning Programs based on Andrew NGs Machine Learning Course
+# Machine Learning from scratch
 
-http://anwarruff.com/tag/linear-regression/
+
+## References
+
+- Machine Learning Programs based on Andrew NGs Machine Learning Course
+- http://anwarruff.com/tag/linear-regression/
