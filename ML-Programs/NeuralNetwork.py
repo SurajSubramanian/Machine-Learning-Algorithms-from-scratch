@@ -1,15 +1,7 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
+# Only library used !
 import numpy as np
 
-
-# In[2]:
-
-
+# Single function used to calculate both the sigmoid and the derivative of the sigmoid ( deriv=False -> sigmoid(x), derive=True -> derivative(sigmoid(x)) )
 def sigmoid(x, deriv=False):
     if(deriv==True):
         return sigmoid(x)*sigmoid(1-x)
@@ -17,33 +9,20 @@ def sigmoid(x, deriv=False):
         return 1/(1 + np.exp(-x))
 
 
-# In[3]:
-
-
+# simple data
 X = np.array([[0,0,1],[0,1,1],[1,0,1],[1,1,1]])
-
 y = np.array([[0],[1],[0],[1]])
-
-
-# In[4]:
-
 
 np.random.seed(1)
 
-
-# In[5]:
-
-
+# creating 2 weights and 2 arrays
 w0 = 2*np.random.random((3,4)) - 1
 w1 = 2*np.random.random((4,1)) - 1
 
 b0 = 2*np.random.random((1,4)) - 1
 b1 = 2*np.random.random((1,1)) - 1
 
-
-# In[6]:
-
-
+# Training
 for j in range(60000):
     # Forward Propagation
     layer0 = X
@@ -67,15 +46,11 @@ w1 += np.dot(layer1.T, l2_delta)
 w0 += np.dot(layer0.T, l1_delta)
 
 
-# In[7]:
-
-
+# function used for testing and evaluation !
 def evaluate(input):
     layer0 = input
     layer1 = sigmoid(np.dot(layer0, w0))
     layer2 = sigmoid(np.dot(layer1,w1))
     return layer2
 
-
-# In[ ]:
 
