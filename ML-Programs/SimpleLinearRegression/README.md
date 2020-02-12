@@ -1,4 +1,4 @@
-# Simple Linear Regression in Python from scratch
+# Simple Linear Regression in Python from scratch 
 
 ### First we plot our data - YearsExperience vs Salary as a scatterplot : 
 <img src = "./images/scatterplot.png" width="400" height="300">
