@@ -1,6 +1,10 @@
-# The following code implements Simple Linear Regression. The motive is to get a good grasp of basic concepts like computing the cost function, implementing gradient descent and using vector notations. It is suggested that you watch Andrew NGs Lectures on Linear Regression and also try out his exercises in Octave before going through this code !
+# The following code implements Simple Linear Regression from scratch.
+# The motive is to get a good grasp of basic concepts like computing the cost function, implementing gradient descent and 
+# using vector notations. It is suggested that you watch Andrew NGs Lectures on Linear Regression and also try out his 
+# exercises in Octave before going through this code !
 
-# importing necessary packages
+# importing necessary packages - numpy: for representing vectors, pandas: for reading csv files and matplotlib: for plotting 
+# our dataset
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
