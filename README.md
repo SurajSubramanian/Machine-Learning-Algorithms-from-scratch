@@ -2,12 +2,12 @@
 
 ## Simple Linear Regression 
 
-Implemented from scratch !
+Implemented from scratch :)
 Used to predict the salary of an employee based on his experience 
 
 ## Multivariate Linear Regression
 
-Just used sklearn library 
+Just used sklearn library :(
 
 ## Neural Network
 
