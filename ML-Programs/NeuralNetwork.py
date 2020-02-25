@@ -27,7 +27,6 @@ for j in range(60000):
     layer0 = X
     layer1 = sigmoid(np.dot(layer0, w0))
     layer2 = sigmoid(np.dot(layer1, w1))
-    
     # Backward Propagation
     # Output Error (dC / da)
     l2_error = y - layer2
@@ -37,11 +36,9 @@ for j in range(60000):
 
 l1_error = np.dot(l2_delta, w1.T)
 l1_delta = np.multiply(l1_error, sigmoid(layer1, deriv=True))
-
 # Updation of weights
 w1 += np.dot(layer1.T, l2_delta)
 w0 += np.dot(layer0.T, l1_delta)
-
 # function used for testing and evaluation !
 def evaluate(input):
     layer0 = input
