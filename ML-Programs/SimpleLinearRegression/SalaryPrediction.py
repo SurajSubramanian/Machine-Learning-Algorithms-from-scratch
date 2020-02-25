@@ -1,3 +1,5 @@
+# The following code implements Simple Linear Regression. The motive is to get a good grasp of basic concepts like computing the cost function, implementing gradient descent and using vector notations. It is suggested that you watch Andrew NGs Lectures on Linear Regression and also try out his exercises in Octave before going through this code !
+
 # importing necessary packages
 import pandas as pd
 import numpy as np
@@ -35,6 +37,7 @@ def gradientDescent(theta0, theta1):
     return (theta0, theta1)
 
 def costFunction(theta0, theta1):
+    # returns the cost function for the given value of theta
     theta = np.transpose(np.array([theta0, theta1]))
     hypothesis = np.dot(X_one, theta)
     return (np.sum((hypothesis - Y_train)**2))/(2*np.size(X_train))
@@ -46,7 +49,7 @@ def iteration(theta0, theta1):
     return (cost, theta0, theta1)
 
 old_theta0 = old_theta1 = 0
-# theta values are updated till there is no 
+# Keep learning till there is no change in the value of theta between previous and current iteration
 for i in range (3000):
     (cost, theta0, theta1) = iteration(theta0, theta1)
     if(theta0 == old_theta0 and theta1 == old_theta1):
@@ -54,11 +57,13 @@ for i in range (3000):
     old_theta0 = theta0; old_theta1 = theta1
 print(cost, theta0, theta1)
 
+# plotting our line through the training data
 plt.plot(X_train,Y_train, 'bo')
 x = np.linspace(1.1,10.5)
 y = (theta0) + (theta1)*x
 plt.plot(x, y, '-r', label='y={} + {}x'.format(theta0, theta1))
 
+# plottling our line through the test data
 plt.plot(X_test, Y_test, 'bo')
 x = np.linspace(1.1, 10.5)
 y = (theta0) + (theta1)*x
