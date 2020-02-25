@@ -11,7 +11,7 @@ Just used sklearn library :(
 
 ## Neural Network
 
-Implemented from scratch !
+Implemented from scratch :)
 
 ## References
 
