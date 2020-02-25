@@ -7,13 +7,12 @@ def sigmoid(x, deriv=False):
         return sigmoid(x)*sigmoid(1-x)
     else:
         return 1/(1 + np.exp(-x))
-
+    
 # simple data
 X = np.array([[0,0,1],[0,1,1],[1,0,1],[1,1,1]])
 y = np.array([[0],[1],[0],[1]])
 
 np.random.seed(1)
-
 # creating 2 weight vectors and 2 bias vectors
 w0 = 2*np.random.random((3,4)) - 1
 w1 = 2*np.random.random((4,1)) - 1
