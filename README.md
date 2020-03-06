@@ -7,7 +7,7 @@ Used to predict the salary of an employee based on his experience
 
 ## Multivariate Linear Regression
 
-Just used sklearn library :(
+Predicted Fuel consumptions using Multivariate Linear Regression !
 
 ## Neural Network
 
