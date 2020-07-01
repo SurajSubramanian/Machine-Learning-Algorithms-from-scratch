@@ -13,6 +13,10 @@ Predicted Fuel consumptions using Multivariate Linear Regression !
 
 Implemented from scratch :)
 
+## Recommender Systems
+
+Implemented an interactive jupyter notebook to demonstrate content based filtering and collaborative filtering.
+
 ## References
 
 - Andrew NGs Machine Learning Course
