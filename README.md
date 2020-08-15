@@ -2,10 +2,14 @@
 
 ## Simple Linear Regression 
 
+[Do read my blog :)](https://medium.com/@surajsubramanian2000/simple-linear-regression-from-scratch-9e073185cdab)
+
 Implemented from scratch :)
 Used to predict the salary of an employee based on his experience 
 
 ## Multivariate Linear Regression
+
+[Do read my blog :)](https://medium.com/@surajsubramanian2000/multivariate-linear-regression-from-scratch-24546f22c15)
 
 Predicted Fuel consumptions using Multivariate Linear Regression !
 
