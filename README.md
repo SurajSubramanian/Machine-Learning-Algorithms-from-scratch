@@ -1,5 +1,7 @@
 # Machine Learning from scratch
 
+[![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
+
 ## Simple Linear Regression 
 
 [Do read my blog :)](https://medium.com/@surajsubramanian2000/simple-linear-regression-from-scratch-9e073185cdab)
