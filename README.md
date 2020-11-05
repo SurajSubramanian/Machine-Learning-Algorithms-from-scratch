@@ -27,6 +27,6 @@ Implemented an interactive jupyter notebook to demonstrate content based filteri
 
 - Andrew NGs Machine Learning Course
 - http://anwarruff.com/tag/linear-regression/
-- A Neural Network in 11 lines of code https://iamtrask.github.io/2015/07/12/basic-python-network/
+- [A Neural Network in 11 lines of code](https://iamtrask.github.io/2015/07/12/basic-python-network/)
 
 Thanks for reading :)
